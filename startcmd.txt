@@ -1,0 +1,19 @@
+for start the server 
+
+gcc -o server server.c -lws2_32 -lpthread
+./server 12121
+
+
+for start the clients 
+
+
+gcc -o client client.c -lws2_32 -lpthread
+
+
+./client 127.0.0.1 12121 rashed
+
+
+./client 127.0.0.1 12121 basim
+
+
+./client 127.0.0.1 12121 nasir
